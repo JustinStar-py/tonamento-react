@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tonamento-react/static/css/main.50d7031b.css",
-    "main.js": "/tonamento-react/static/js/main.1787772b.js",
+    "main.css": "/tonamento-react/static/css/main.c0fc710c.css",
+    "main.js": "/tonamento-react/static/js/main.366ce18b.js",
     "static/js/787.eb3da103.chunk.js": "/tonamento-react/static/js/787.eb3da103.chunk.js",
     "static/media/space6.png": "/tonamento-react/static/media/space6.a8eb6ea453ca98f19305.png",
     "static/media/element-one.png": "/tonamento-react/static/media/element-one.6a907d7ea659b62093a1.png",
@@ -28,12 +28,12 @@
     "static/media/about-history.jpg": "/tonamento-react/static/media/about-history.dbd7d173dbbb6676ce0f.jpg",
     "static/media/logo.svg": "/tonamento-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tonamento-react/index.html",
-    "main.50d7031b.css.map": "/tonamento-react/static/css/main.50d7031b.css.map",
-    "main.1787772b.js.map": "/tonamento-react/static/js/main.1787772b.js.map",
+    "main.c0fc710c.css.map": "/tonamento-react/static/css/main.c0fc710c.css.map",
+    "main.366ce18b.js.map": "/tonamento-react/static/js/main.366ce18b.js.map",
     "787.eb3da103.chunk.js.map": "/tonamento-react/static/js/787.eb3da103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50d7031b.css",
-    "static/js/main.1787772b.js"
+    "static/css/main.c0fc710c.css",
+    "static/js/main.366ce18b.js"
   ]
 }
