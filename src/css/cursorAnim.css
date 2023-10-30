@@ -1,0 +1,31 @@
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.6rem;
+  background-color: #fff;
+  border-radius: 50%;
+  /* mix-blend-mode: difference; */
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 20px #ffffff,
+  0 0 60px #ffffff,
+  0 0 6px #ffffff,
+  0 0 100px #ffffff;
+  animation: colors 5s infinite;
+  z-index: 100;
+}
+
+.cursor:before{
+  content: '';
+  position: absolute;
+  background: #f9f9f978;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  animation: opacity 0.5s infinite;
+}
+
+.hover-this:hover ~ .cursor {
+  transform:translate(-50%, -50%) scale(8);
+}

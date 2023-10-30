@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lobster&family=Noto+Sans+Display:ital,wght@1,900&family=Play:wght@400;700&family=Righteous&family=Russo+One&display=swap');
+
+body {
+    background-color: #004AAD;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    cursor: none;
+}
+
+#mainNav {
+  padding: 0.35rem;
+  background-color: #fff;
+  margin: 10px 20px;
+  border-radius: 15px;
+}
+
+h1.display-1.lh-1.mb-3 {
+    font-size: 90px !important;
+    color: white;
+    position: relative;
+    /* font-size: 68px; */
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
+    margin-top: 30px !important;
+    margin-bottom: 35px;
+}
+
+.typewrite {
+    font-size: 30px;
+    color: steelblue;
+}
+
+#home-element-one {
+    position: absolute;
+    top:15%;
+    left: 64%;
+}
+
+#home-element-two {
+    position: absolute;
+    top: 20%;
+    left: 63%;
+    /* rotate: -20deg; */
+}
+
+#whats-element-one {
+    position: absolute;
+    bottom:45%;
+    left: 40%;
+ }
+
+#tona-logo {
+  margin-left: 20px !important;
+}
+
+section#features {
+    background: #004AAD;
+}
+
+.masthead {
+    background: url('../img/bg.png');
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+    background-size: 1370px;
+    background-position-y: top;
+    height: 700px;
+}
+
+.bg-blue {
+    background: #004AAD;
+}
+
+.l-side-nav {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    right: 90%;
+}
+
+.l-side-nav::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 70%;
+    max-height: 750px;
+    background-color: #000;
+    opacity: .35;
+    z-index: 0;
+}
+@media (max-width: 1180px){
+    .l-side-nav{
+        display:none
+    }
+}
+side-nav{
+    position:relative;
+    padding: 15px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    width:100px;
+    height:70%;
+    max-height:750px;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-justify-content:space-around;
+    -ms-flex-pack:distribute;
+    justify-content:space-around;
+    margin:0;
+    padding:0;
+    list-style-position:inside;
+    z-index:10
+}
+.side-nav>li {
+    position: relative;
+    top: -5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    display: list-item;
+    text-align: left;
+}
+.side-nav>li span{
+    position:relative;
+    top:3px;
+    left:10px;
+    color:#fff;
+    font-size:14px;
+    font-weight:300;
+    opacity:0;
+    visibility:hidden
+}
+.side-nav>li::before{
+    position:absolute;
+    top:3px;
+    left:10px;
+    color:#eeeeee;
+    font-size:14px;
+    font-weight:300
+}
+.side-nav li:nth-child(1)::before{
+    content:"01"
+}
+.side-nav li:nth-child(2)::before{
+    content:"02"
+}
+.side-nav li:nth-child(3)::before{
+    content:"03"
+}
+.side-nav li:nth-child(4)::before{
+    content:"04"
+}
+.side-nav li:nth-child(5)::before{
+    content:"05"
+}
+.side-nav li.is-active{
+    color:#00ff89;
+    -webkit-transition:color .4s ease-in-out;
+    transition:color .4s ease-in-out
+}
+.side-nav li.is-active span{
+    opacity:1;
+    visibility:visible;
+    -webkit-transition:opacity .4s ease-in-out;
+    transition:opacity .4s ease-in-out
+}
+.side-nav li.is-active::before{
+    left:-33px;
+    color:#fff
+}
+
+.home-banner {
+    padding: 5px;
+}
+
+#weekly-banner {
+    background: url('../img/banner-2.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 380px;
+    height: 100px;
+    margin: 7px 5px;
+}
+
+#tona-banner {
+    background: url('../img/banner-1.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 380px;
+    height: 100px;
+    margin: 7px 5px;
+}
+
+#lottery-banner {
+    background: url('../img/banner-3.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 380px;
+    height: 100px;
+    margin: 7px 5px;
+}
+
+#whats-text {
+    text-align: start;
+    color: azure !important;
+    white-space: unset;
+}
+
+.whats-text-parent-div {
+    width: 1200px;
+    margin-left: 50px !important;
+}
+
+#roadmap-title {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-box {
+    color: white;
+    text-align: center;
+}
+
+.team-box h3 {
+    margin-top: 15px;
+}
+
+.img-fluid {
+    width: 235px;
+    border-radius: 15px;
+}
