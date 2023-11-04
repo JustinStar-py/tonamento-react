@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecc64a65.css",
+    "main.css": "/static/css/main.7d2d09c8.css",
     "main.js": "/static/js/main.46abe05a.js",
     "static/js/787.eb3da103.chunk.js": "/static/js/787.eb3da103.chunk.js",
     "static/media/elements.png": "/static/media/elements.c86c8b93e3e78bc2d4bd.png",
-    "static/media/bg-mobile.png": "/static/media/bg-mobile.81974852f33d8ceb634f.png",
     "static/media/hale.png": "/static/media/hale.d92e9a562242306dad9e.png",
     "static/media/bg.png": "/static/media/bg.803172b2196925d60693.png",
     "static/media/banner-1.png": "/static/media/banner-1.6fe976e5b2b731ff55b9.png",
     "static/media/banner-3.png": "/static/media/banner-3.e74c58a9d8cbb75e357e.png",
     "static/media/banner-2.png": "/static/media/banner-2.80db1f1c15f6885eea49.png",
+    "static/media/da-rk-blue.png": "/static/media/da-rk-blue.df0efd17c234f9ad83f5.png",
     "static/media/eagle-profile.jpg": "/static/media/eagle-profile.6fdff7e6ac58d5d5958c.jpg",
     "static/media/cow-profile.jpg": "/static/media/cow-profile.3e067ab853693e8a203a.jpg",
     "static/media/owl-profile.jpg": "/static/media/owl-profile.f3a1b878292b3c2e44da.jpg",
@@ -19,12 +19,12 @@
     "static/media/question-mark.png": "/static/media/question-mark.d4f20cb04a7a0c040a47.png",
     "static/media/dragon-profile.jpg": "/static/media/dragon-profile.41dcab68758f9cf47d48.jpg",
     "index.html": "/index.html",
-    "main.ecc64a65.css.map": "/static/css/main.ecc64a65.css.map",
+    "main.7d2d09c8.css.map": "/static/css/main.7d2d09c8.css.map",
     "main.46abe05a.js.map": "/static/js/main.46abe05a.js.map",
     "787.eb3da103.chunk.js.map": "/static/js/787.eb3da103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc64a65.css",
+    "static/css/main.7d2d09c8.css",
     "static/js/main.46abe05a.js"
   ]
 }
