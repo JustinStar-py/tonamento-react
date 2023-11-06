@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c7b21b4.css",
-    "main.js": "/static/js/main.9dfa6dc3.js",
+    "main.css": "/static/css/main.a88e2733.css",
+    "main.js": "/static/js/main.6bfd14ec.js",
     "static/js/787.eb3da103.chunk.js": "/static/js/787.eb3da103.chunk.js",
     "static/media/Metaverse-3.png": "/static/media/Metaverse-3.2d6c0d5b7367550614cc.png",
     "static/media/elements.png": "/static/media/elements.c86c8b93e3e78bc2d4bd.png",
@@ -21,12 +21,12 @@
     "static/media/dragon-profile.jpg": "/static/media/dragon-profile.41dcab68758f9cf47d48.jpg",
     "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "index.html": "/index.html",
-    "main.7c7b21b4.css.map": "/static/css/main.7c7b21b4.css.map",
-    "main.9dfa6dc3.js.map": "/static/js/main.9dfa6dc3.js.map",
+    "main.a88e2733.css.map": "/static/css/main.a88e2733.css.map",
+    "main.6bfd14ec.js.map": "/static/js/main.6bfd14ec.js.map",
     "787.eb3da103.chunk.js.map": "/static/js/787.eb3da103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c7b21b4.css",
-    "static/js/main.9dfa6dc3.js"
+    "static/css/main.a88e2733.css",
+    "static/js/main.6bfd14ec.js"
   ]
 }
