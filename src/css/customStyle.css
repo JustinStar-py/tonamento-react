@@ -189,6 +189,9 @@ side-nav{
 .side-nav li:nth-child(5)::before{
     content:"05"
 }
+.side-li.is-active::before {
+    content: '' !important;
+  }
 .side-nav li.is-active{
     color:#00ff89;
     -webkit-transition:color .4s ease-in-out;

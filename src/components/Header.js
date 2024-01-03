@@ -3,14 +3,13 @@ import logo from '../img/logo.png'
 import $ from 'jquery';
 
 function Header() {
-    const [activeNavItem, setActiveNavItem] = useState('Home');
 
     const handleNavItemClick = (navItem) => {
-        setActiveNavItem(navItem);
         const roadmapSection = document.querySelector(`#${navItem.toLowerCase()}-section`); 
         roadmapSection.scrollIntoView({ behavior: "smooth" });
-        
-        // Scroll to the roadmap section
+        $('.side-li').removeClass('is-active');
+        $(`#${navItem}`).addClass('is-active');
+        $(`.side-li#${navItem}::before`).css('content', '');
     };
 
   return (
@@ -25,7 +24,7 @@ function Header() {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li className="nav-item"><a className="nav-link me-lg-3" href="#about-section">Whitepaper</a></li>
-                        <li className="nav-item"><a className="nav-link me-lg-3" href="#download">Roadmap</a></li>
+                        <li className="nav-item"><a className="nav-link me-lg-3" href="#roadmap-section">Roadmap</a></li>
                     </ul>
                     <button className="btn btn-primary px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span className="d-flex align-items-center">
@@ -39,11 +38,11 @@ function Header() {
          <nav className="l-side-nav">
           <div id='nav-cover'></div>
            <ul className="side-nav">
-              <li className={activeNavItem === 'Home' ? 'is-active' : ''} onClick={() => handleNavItemClick('Home')}><span>Home</span></li>
-              <li className={activeNavItem === 'Info' ? 'is-active' : ''} onClick={() => handleNavItemClick('Info')}><span>Info</span></li>
-              <li className={activeNavItem === 'Roadmap' ? 'is-active' : ''} onClick={() => handleNavItemClick('Roadmap')}><span>Roadmap</span></li>
-              <li className={activeNavItem === 'Team' ? 'is-active' : ''} onClick={() => handleNavItemClick('Team')}><span>Team</span></li>
-              <li className={activeNavItem === 'Socials' ? 'is-active' : ''} onClick={() => handleNavItemClick('Socials')}><span>Socials</span></li>
+              <li className='side-li' id='Home' onClick={() => handleNavItemClick('Home')}><span>Home</span></li>
+              <li className='side-li' id='Info' onClick={() => handleNavItemClick('Info')}><span>Info</span></li>
+              <li className='side-li' id='Roadmap' onClick={() => handleNavItemClick('Roadmap')}><span>Roadmap</span></li>
+              <li className='side-li' id='Team' onClick={() => handleNavItemClick('Team')}><span>Team</span></li>
+              <li className='side-li' id='Socials' onClick={() => handleNavItemClick('Socials')}><span>Socials</span></li>
            </ul>
         </nav>
       </>
