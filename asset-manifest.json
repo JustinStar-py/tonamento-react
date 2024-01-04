@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a80f694.css",
-    "main.js": "/static/js/main.bcfc47ab.js",
+    "main.css": "/static/css/main.e19a979d.css",
+    "main.js": "/static/js/main.b987eeda.js",
     "static/js/787.eb3da103.chunk.js": "/static/js/787.eb3da103.chunk.js",
     "static/media/Metaverse-3.png": "/static/media/Metaverse-3.b3951ece1f5dbc5f8347.png",
     "static/media/banner-1.png": "/static/media/banner-1.6fe976e5b2b731ff55b9.png",
@@ -16,17 +16,19 @@
     "static/media/crocodile-profile.jpg": "/static/media/crocodile-profile.ac6b9d73968efea3e67b.jpg",
     "static/media/owl-profile.jpg": "/static/media/owl-profile.ec7098543d0b3fa4fce9.jpg",
     "static/media/dragon-profile.jpg": "/static/media/dragon-profile.129030475dee319e52c1.jpg",
+    "static/media/Avenir-Black.ttf": "/static/media/Avenir-Black.561c15d61811bd9cc0a9.ttf",
     "static/media/bg.png": "/static/media/bg.eee8e82e6c416a8342b8.png",
     "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
     "static/media/question-mark.png": "/static/media/question-mark.a970d3f5b0a6b0215c2d.png",
+    "static/media/Avenir-Black.woff": "/static/media/Avenir-Black.5e7643316cfadf5f1c00.woff",
     "static/media/logo.png": "/static/media/logo.de2b0613c60bac40d4c5.png",
     "index.html": "/index.html",
-    "main.4a80f694.css.map": "/static/css/main.4a80f694.css.map",
-    "main.bcfc47ab.js.map": "/static/js/main.bcfc47ab.js.map",
+    "main.e19a979d.css.map": "/static/css/main.e19a979d.css.map",
+    "main.b987eeda.js.map": "/static/js/main.b987eeda.js.map",
     "787.eb3da103.chunk.js.map": "/static/js/787.eb3da103.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a80f694.css",
-    "static/js/main.bcfc47ab.js"
+    "static/css/main.e19a979d.css",
+    "static/js/main.b987eeda.js"
   ]
 }
